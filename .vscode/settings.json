@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/home/aman/anaconda3/envs/machine_learning/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.languageServer": "Jedi"
+}

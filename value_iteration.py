@@ -3,9 +3,9 @@
 '''
 
 import numpy as np
-from gridworld import standard_grid, ACTION_SPACE
+from gridworld import negative_grid, standard_grid, ACTION_SPACE
 
-grid = standard_grid() # defining the standard 3*4 grid
+grid = negative_grid(step_cost=-0.9) # defining the standard 3*4 grid
 gamma=  0.9
 tol = 1e-3
 
